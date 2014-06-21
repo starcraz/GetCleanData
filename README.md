@@ -27,7 +27,7 @@ Good luck!
 Peer Review Instructions
 ------------------------
 
-1. By using the R text editor, run the "run.analysis.R" script
+1. Use the R editor to run the "run.analysis.R" script
 2. Ensure the directory is changed to the desired folder location where the script is saved
 3. Tidy data set will be generated along with a codebook file using the Markdown function
 
