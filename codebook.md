@@ -6,8 +6,8 @@ Data Dictionary
 
 Variable name       | Description
 --------------------|------------
-subject             | ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
-activity            | Activity name
+subject             | ID of the experimental subjects of 30 volunteers
+activity            | Activity field
 featureDomain       | Feature data of time and frequency domain
 featureInstrument   | Feature data by measuring with accelerometer or gyroscope instruments
 featureAcceleration | Feature data of body acceleration
@@ -18,7 +18,7 @@ featureAxis         | Feature data of 3-axial signals in X, Y and Z directions
 featureCount        | Feature count of data points used to compute average
 featureAverage      | Feature average of each variable for each activity and subject
 
-Dataset structure
+Data structure
 -----------------
 
 
@@ -44,8 +44,8 @@ str(dtTidy)
 ```
 
 
-List the key variables in the data table
-----------------------------------------
+List of variables in the dataset
+--------------------------------
 
 
 ```r
@@ -59,7 +59,7 @@ key(tidyData)
 ```
 
 
-Show a few rows of the dataset
+Example of dataset
 ------------------------------
 
 
@@ -95,8 +95,8 @@ tidyData
 ```
 
 
-Summary of variables
---------------------
+Variable attributes
+-------------------
 
 
 ```r
@@ -127,11 +127,8 @@ summary(tidyData)
 ##  Max.   :95.0   Max.   : 0.9745
 ```
 
-Save to file
-------------
-
-Save data table objects to a tab-delimited text file called `SmartphoneTidyData.txt`.
-
+Saving the tidy dataset
+-----------------------
 
 ```r
 tidy <- file.path(path, "SmartphoneTidyData.txt")
