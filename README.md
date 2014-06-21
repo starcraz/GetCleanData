@@ -31,5 +31,13 @@ Peer Review Instructions
 2. Ensure the directory is changed to the desired folder location where the script is saved
 3. Tidy data set will be generated along with a codebook file using the Markdown function
 
+Grading Criteria
+----------------
+1. Upload a tidy data set according to the instructions in the project description
+2. Submit a link to a Github repo with the code for performing your analysis
+  a. Include tidy dataset and R script
+  b. Codebook or data dictionary
+  c. README file provides instruction in executing the script
+
 
 
